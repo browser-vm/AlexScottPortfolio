@@ -96,22 +96,22 @@ export default function PortfolioPage() {
     const prevIndex = (currentIndex - 1 + filteredItems.length) % filteredItems.length;
     setCurrentItem(filteredItems[prevIndex]);
   };
-  return <div className="min-h-screen bg-[#0d1117]" data-unique-id="989abeba-9908-428e-bd5f-033192737ff3" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">
+  return <div className="min-h-screen bg-[#0d1117]" data-unique-id="ee91ec62-1347-4a84-9561-05dc283c028a" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">
       {/* Header */}
-      <header className="py-8 border-b border-[#30363d]" data-unique-id="df958532-9631-443f-adf4-67a597df4ec4" data-file-name="app/portfolio/page.tsx">
-        <div className="container mx-auto px-4" data-unique-id="f567f545-0543-4164-9823-4f3636dadb2d" data-file-name="app/portfolio/page.tsx">
-          <div className="flex justify-between items-center" data-unique-id="8db9fdf3-5133-4a1a-8a91-2fb18676a982" data-file-name="app/portfolio/page.tsx">
-            <Link href="/" className="flex items-center text-[#58a6ff] hover:text-[#58a6ff] hover:bg-opacity-90 transition" data-unique-id="1066ee16-a6b0-4901-bf04-8c92e0634ef9" data-file-name="app/portfolio/page.tsx">
+      <header className="py-8 border-b border-[#30363d]" data-unique-id="08740d92-967a-439f-b6b6-8df38924bc0e" data-file-name="app/portfolio/page.tsx">
+        <div className="container mx-auto px-4" data-unique-id="5384a5e7-61c7-4bfd-aa18-89171fb83d4a" data-file-name="app/portfolio/page.tsx">
+          <div className="flex justify-between items-center" data-unique-id="0aedc515-acf0-4433-8401-94c371163f9b" data-file-name="app/portfolio/page.tsx">
+            <Link href="/" className="flex items-center text-[#58a6ff] hover:text-[#58a6ff] hover:bg-opacity-90 transition" data-unique-id="2e591700-eb49-485e-99fd-0b4fcb5d970c" data-file-name="app/portfolio/page.tsx">
               <ArrowLeft className="mr-2" size={20} />
-              <span data-unique-id="82e22ca6-93a4-4b86-ac9b-8526212bcb5b" data-file-name="app/portfolio/page.tsx"><span className="editable-text" data-unique-id="b7d2b3cf-957e-4be5-a558-effd457e0057" data-file-name="app/portfolio/page.tsx">Back to Home</span></span>
+              <span data-unique-id="529ff8d9-e236-42df-b666-f6bfe55188ae" data-file-name="app/portfolio/page.tsx"><span className="editable-text" data-unique-id="40dd40ec-91b3-4b84-bdb4-c751345a23cd" data-file-name="app/portfolio/page.tsx">Back to Home</span></span>
             </Link>
-            <div className="flex flex-col items-end" data-unique-id="c04bcc26-5d06-4502-b21e-fb65b1f73a80" data-file-name="app/portfolio/page.tsx">
-              <h1 className="text-3xl font-bold text-[#e6edf3]" data-unique-id="567d25fe-1149-4b54-8479-d1c6337c4fc3" data-file-name="app/portfolio/page.tsx"><span className="editable-text" data-unique-id="c09ce2d8-5d21-4c08-ac7d-146738f2c840" data-file-name="app/portfolio/page.tsx">
-                Creative </span><span className="text-[#7ee787]" data-unique-id="2036ded8-7d16-45f5-ab24-323748e377ab" data-file-name="app/portfolio/page.tsx"><span className="editable-text" data-unique-id="466d339b-1c86-47fc-9567-a8347f015ba6" data-file-name="app/portfolio/page.tsx">Portfolio</span></span>
+            <div className="flex flex-col items-end" data-unique-id="ad1f864e-cd8c-4fbf-bb86-3bf936a84430" data-file-name="app/portfolio/page.tsx">
+              <h1 className="text-3xl font-bold text-[#e6edf3]" data-unique-id="248cb4f0-7478-4faa-8697-1cb66bd8c22f" data-file-name="app/portfolio/page.tsx"><span className="editable-text" data-unique-id="dafb495b-8bc5-42b8-aade-c81e2506a637" data-file-name="app/portfolio/page.tsx">
+                Creative </span><span className="text-[#7ee787]" data-unique-id="40da4c13-2106-466b-8c3a-241f3424afb1" data-file-name="app/portfolio/page.tsx"><span className="editable-text" data-unique-id="89dae2af-049b-40a7-8b70-149503be1f4e" data-file-name="app/portfolio/page.tsx">Portfolio</span></span>
               </h1>
-              <a href="https://drive.google.com/file/d/1agH_p2ltRqakMZmY7LRfSeGGl-BAIPMB/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="mt-2 flex items-center text-[#d2a8ff] hover:text-[#d2a8ff] hover:bg-opacity-90 transition text-sm" data-unique-id="af2cfc7d-1386-4ea8-99f9-1a968006cde5" data-file-name="app/portfolio/page.tsx">
+              <a href="https://drive.google.com/file/d/1agH_p2ltRqakMZmY7LRfSeGGl-BAIPMB/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="mt-2 flex items-center text-[#d2a8ff] hover:text-[#d2a8ff] hover:bg-opacity-90 transition text-sm" data-unique-id="b76371a0-79a1-481f-99eb-d07c37edcede" data-file-name="app/portfolio/page.tsx">
                 <FileText className="mr-1" size={14} />
-                <span data-unique-id="fff91853-b878-44a8-91b7-9e9ed0a575e0" data-file-name="app/portfolio/page.tsx"><span className="editable-text" data-unique-id="12ca2945-b329-4317-b3c3-aee7d67f948a" data-file-name="app/portfolio/page.tsx">View Resume</span></span>
+                <span data-unique-id="f7f22e0d-2f28-4a8d-adf7-2371015f385b" data-file-name="app/portfolio/page.tsx"><span className="editable-text" data-unique-id="0cfed925-2528-4ec4-8cbf-f7c5fcd34716" data-file-name="app/portfolio/page.tsx">View Resume</span></span>
               </a>
             </div>
           </div>
@@ -119,10 +119,10 @@ export default function PortfolioPage() {
       </header>
       
       {/* Filters */}
-      <section className="py-8" data-unique-id="8bf3fe28-1271-4693-9429-479661263efb" data-file-name="app/portfolio/page.tsx">
-        <div className="container mx-auto px-4" data-unique-id="f8c7f511-91ea-419c-bc65-bfff866c6490" data-file-name="app/portfolio/page.tsx">
-          <div className="flex flex-wrap justify-center gap-4 mb-8" data-unique-id="e5670136-7e47-430a-a5ef-e8cfabf1c752" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">
-            {categories.map(category => <button key={category} onClick={() => setSelectedFilter(category)} className={`px-4 py-2 rounded-md transition-all ${selectedFilter === category ? 'bg-[#58a6ff] text-[#0d1117]' : 'bg-[#21262d] text-[#e6edf3] hover:bg-[#30363d]'}`} data-is-mapped="true" data-unique-id="5cbe95a0-ea61-444b-8978-07e703583604" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">
+      <section className="py-8" data-unique-id="bdd7acf3-bacb-4429-af6b-a8c737d85534" data-file-name="app/portfolio/page.tsx">
+        <div className="container mx-auto px-4" data-unique-id="1f114e2f-f5b2-48b3-80df-c656fe8f9ab9" data-file-name="app/portfolio/page.tsx">
+          <div className="flex flex-wrap justify-center gap-4 mb-8" data-unique-id="eef12eb6-e743-42d2-8ef8-27ef96c335d6" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">
+            {categories.map(category => <button key={category} onClick={() => setSelectedFilter(category)} className={`px-4 py-2 rounded-md transition-all ${selectedFilter === category ? 'bg-[#58a6ff] text-[#0d1117]' : 'bg-[#21262d] text-[#e6edf3] hover:bg-[#30363d]'}`} data-is-mapped="true" data-unique-id="49af788f-01db-4cb4-a36d-efb0a2205b6f" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">
                 {category}
               </button>)}
           </div>
@@ -130,9 +130,9 @@ export default function PortfolioPage() {
       </section>
       
       {/* Portfolio Grid */}
-      <section className="pb-16" data-unique-id="d05a5300-d5e6-4563-9045-297d37718e74" data-file-name="app/portfolio/page.tsx">
-        <div className="container mx-auto px-4" data-unique-id="16c6a81b-89cb-4e98-8b36-883a9ace11f0" data-file-name="app/portfolio/page.tsx">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-unique-id="33c21352-5bd5-4d2d-a61e-697356bff2fd" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">
+      <section className="pb-16" data-unique-id="c9757d50-e963-493d-bc90-c6e19f4df6fc" data-file-name="app/portfolio/page.tsx">
+        <div className="container mx-auto px-4" data-unique-id="7c93f780-73c6-41af-ab98-3e8f5114f0e0" data-file-name="app/portfolio/page.tsx">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-unique-id="b2a888a8-db8a-470d-83d1-97bf8b95bb15" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">
             {filteredItems.map(item => <motion.div key={item.id} initial={{
             opacity: 0,
             y: 20
@@ -143,15 +143,15 @@ export default function PortfolioPage() {
             duration: 0.5
           }} whileHover={{
             scale: 1.02
-          }} className="bg-[#161b22] rounded-lg overflow-hidden cursor-pointer" onClick={() => item.link ? window.location.href = item.link : openModal(item)} data-is-mapped="true" data-unique-id="40c2c4a2-b130-4938-a549-b7e40050495e" data-file-name="app/portfolio/page.tsx">
-                <div className="relative h-64 overflow-hidden" data-is-mapped="true" data-unique-id="dda50619-969f-44f8-aa4e-2f0dd238bf97" data-file-name="app/portfolio/page.tsx">
-                  <Image src={item.imgSrc} alt={item.title} fill className="object-cover transition-transform duration-500 hover:scale-105" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" data-is-mapped="true" data-unique-id="dc36777c-f84b-4e23-a807-2f9d66e17827" data-file-name="app/portfolio/page.tsx" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0d1117] via-transparent opacity-70" data-is-mapped="true" data-unique-id="2038779d-86d1-4182-8fb7-b74bbbbf06bd" data-file-name="app/portfolio/page.tsx"></div>
-                  <div className="absolute bottom-0 left-0 right-0 p-4" data-is-mapped="true" data-unique-id="3b1ea59f-4639-4151-b6a4-2932d0870554" data-file-name="app/portfolio/page.tsx">
-                    <span className="inline-block px-3 py-1 bg-[#0d1117] bg-opacity-80 rounded-full text-xs text-[#7ee787] mb-2" data-is-mapped="true" data-unique-id="a2e1e3a5-45c2-42f3-9ce5-99bc78fc54ff" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">
+          }} className="bg-[#161b22] rounded-lg overflow-hidden cursor-pointer" onClick={() => item.link ? window.location.href = item.link : openModal(item)} data-is-mapped="true" data-unique-id="822575b8-d925-44ef-8bcb-b580f4732d89" data-file-name="app/portfolio/page.tsx">
+                <div className="relative h-64 overflow-hidden" data-is-mapped="true" data-unique-id="b3c08a2a-a2a4-4f83-9771-6ded991147c8" data-file-name="app/portfolio/page.tsx">
+                  <Image src={item.imgSrc} alt={item.title} fill className="object-cover transition-transform duration-500 hover:scale-105" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" data-is-mapped="true" data-unique-id="b8eb8429-0594-4e11-9cad-0a6e9dabd463" data-file-name="app/portfolio/page.tsx" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0d1117] via-transparent opacity-70" data-is-mapped="true" data-unique-id="0af22538-a85c-495c-93e6-622ff7407f2f" data-file-name="app/portfolio/page.tsx"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4" data-is-mapped="true" data-unique-id="899bab5e-a337-4c9a-99d7-04afec2a9973" data-file-name="app/portfolio/page.tsx">
+                    <span className="inline-block px-3 py-1 bg-[#0d1117] bg-opacity-80 rounded-full text-xs text-[#7ee787] mb-2" data-is-mapped="true" data-unique-id="cd8fc424-e327-4ad9-8e82-6f014e532f78" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">
                       {item.category}
                     </span>
-                    <h3 className="text-lg font-semibold text-[#e6edf3]" data-is-mapped="true" data-unique-id="e369b415-ea24-4469-a78b-e13b65e5bc65" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">{item.title}</h3>
+                    <h3 className="text-lg font-semibold text-[#e6edf3]" data-is-mapped="true" data-unique-id="4103b675-d0c6-441f-8d3b-6d50a3d60520" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">{item.title}</h3>
                   </div>
                 </div>
               </motion.div>)}
@@ -166,40 +166,40 @@ export default function PortfolioPage() {
       opacity: 1
     }} exit={{
       opacity: 0
-    }} className="fixed inset-0 z-50 flex items-center justify-center bg-[#0d1117] bg-opacity-95 p-4" data-unique-id="07e5285f-d00f-4755-af5e-c8e1a89d7399" data-file-name="app/portfolio/page.tsx">
-          <div className="absolute inset-0 z-0" onClick={closeModal} data-unique-id="08f91fae-89fd-4d83-bd29-288c876933bd" data-file-name="app/portfolio/page.tsx"></div>
+    }} className="fixed inset-0 z-50 flex items-center justify-center bg-[#0d1117] bg-opacity-95 p-4" data-unique-id="5674ee76-b816-4a77-a05b-a644b439ff08" data-file-name="app/portfolio/page.tsx">
+          <div className="absolute inset-0 z-0" onClick={closeModal} data-unique-id="ca1b85cd-4400-4411-a277-e1bca8b15460" data-file-name="app/portfolio/page.tsx"></div>
           
-          <div className="relative z-10 max-w-4xl w-full bg-[#161b22] rounded-lg overflow-hidden" data-unique-id="9cf05723-da27-458d-b5e6-81450b60fb8e" data-file-name="app/portfolio/page.tsx">
-            <div className="flex justify-between items-center p-4 border-b border-[#30363d]" data-unique-id="f20a5401-bc9b-4c20-815d-045388e96cd0" data-file-name="app/portfolio/page.tsx">
-              <h3 className="text-xl font-bold text-[#e6edf3]" data-unique-id="4c7f5a32-ff1f-4189-8aa6-2ee9a2452263" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">{currentItem.title}</h3>
-              <div className="flex items-center space-x-2" data-unique-id="7526b148-aa88-41a6-8035-a6136a50ca6c" data-file-name="app/portfolio/page.tsx">
-                <button onClick={closeModal} className="p-2 rounded-full hover:bg-[#21262d] transition" data-unique-id="e4e1fbcc-2a2f-4a38-8df1-5d67c83694ce" data-file-name="app/portfolio/page.tsx">
+          <div className="relative z-10 max-w-4xl w-full bg-[#161b22] rounded-lg overflow-hidden" data-unique-id="cd30f06a-ddb6-4985-b862-6324c797ec2b" data-file-name="app/portfolio/page.tsx">
+            <div className="flex justify-between items-center p-4 border-b border-[#30363d]" data-unique-id="6fd022fa-5206-4a83-a385-8aaf7da1dc98" data-file-name="app/portfolio/page.tsx">
+              <h3 className="text-xl font-bold text-[#e6edf3]" data-unique-id="295414b6-c71d-40cf-88bc-6967d7aa327d" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">{currentItem.title}</h3>
+              <div className="flex items-center space-x-2" data-unique-id="1c1e5ceb-2ed4-473c-bfdf-2d0ef9606c8e" data-file-name="app/portfolio/page.tsx">
+                <button onClick={closeModal} className="p-2 rounded-full hover:bg-[#21262d] transition" data-unique-id="6cb09b77-b0b5-4ea5-9607-00143a43c485" data-file-name="app/portfolio/page.tsx">
                   <X size={20} className="text-[#8b949e]" />
                 </button>
               </div>
             </div>
             
-            <div className="p-6" data-unique-id="263e4230-801f-4a60-9f22-ef9419b12c74" data-file-name="app/portfolio/page.tsx">
-              <div className="relative h-96 mb-6" data-unique-id="9e6a373b-ec1d-4fe0-a872-459ee60e2138" data-file-name="app/portfolio/page.tsx">
-                <Image src={currentItem.imgSrc} alt={currentItem.title} fill className="object-contain" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 50vw" data-unique-id="9fd3a529-4530-423e-9e31-0efa8a2c4a7f" data-file-name="app/portfolio/page.tsx" />
+            <div className="p-6" data-unique-id="b7b643ce-6fb4-41fa-be19-dc37aac72714" data-file-name="app/portfolio/page.tsx">
+              <div className="relative h-96 mb-6" data-unique-id="160ef70d-1bf0-48cc-8193-b3f80c2d31fe" data-file-name="app/portfolio/page.tsx">
+                <Image src={currentItem.imgSrc} alt={currentItem.title} fill className="object-contain" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 50vw" data-unique-id="0df3478c-eda8-4485-996e-200e230b096c" data-file-name="app/portfolio/page.tsx" />
               </div>
               
-              <div className="space-y-4" data-unique-id="2b0de75e-d915-4c85-9e69-a815ad931be7" data-file-name="app/portfolio/page.tsx">
-                <div data-unique-id="911e5c9f-580c-4a95-afea-132b25d390d1" data-file-name="app/portfolio/page.tsx">
-                  <span className="inline-block px-3 py-1 bg-[#21262d] rounded-full text-xs text-[#7ee787] mb-2" data-unique-id="9ab60cab-c4b9-411f-9216-dc6d5e48458e" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">
+              <div className="space-y-4" data-unique-id="24738253-20b3-443d-88ef-03e9aca001ca" data-file-name="app/portfolio/page.tsx">
+                <div data-unique-id="ef1f7871-5b8b-4cb6-b2b9-1655b1659042" data-file-name="app/portfolio/page.tsx">
+                  <span className="inline-block px-3 py-1 bg-[#21262d] rounded-full text-xs text-[#7ee787] mb-2" data-unique-id="c33d797f-0711-4974-bb48-c5bcbba5ac95" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">
                     {currentItem.category}
                   </span>
                 </div>
-                <p className="text-[#8b949e]" data-unique-id="3f5d9880-687a-4173-afca-d92208e3b1ab" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">{currentItem.description}</p>
+                <p className="text-[#8b949e]" data-unique-id="38d5dc7a-0893-4139-aaef-2ce6e2e2bc3e" data-file-name="app/portfolio/page.tsx" data-dynamic-text="true">{currentItem.description}</p>
               </div>
             </div>
             
-            <div className="flex justify-between p-4 border-t border-[#30363d]" data-unique-id="2624ad63-3334-4400-9b03-655fda56d006" data-file-name="app/portfolio/page.tsx">
-              <button onClick={prevItem} className="flex items-center px-4 py-2 bg-[#21262d] hover:bg-[#30363d] rounded-md transition" data-unique-id="528b9798-6920-4798-b23e-221f13a82a33" data-file-name="app/portfolio/page.tsx">
-                <ChevronLeft size={20} className="mr-1" /><span className="editable-text" data-unique-id="3fdbb04a-5c17-4b85-bbe1-96e2c2c1e25c" data-file-name="app/portfolio/page.tsx">
+            <div className="flex justify-between p-4 border-t border-[#30363d]" data-unique-id="a757d13f-f968-4789-a59b-599304c34e7c" data-file-name="app/portfolio/page.tsx">
+              <button onClick={prevItem} className="flex items-center px-4 py-2 bg-[#21262d] hover:bg-[#30363d] rounded-md transition" data-unique-id="7917acf9-75e7-42a6-a6d4-3ad8877cd363" data-file-name="app/portfolio/page.tsx">
+                <ChevronLeft size={20} className="mr-1" /><span className="editable-text" data-unique-id="ae897c81-ed65-4baa-b8ee-64bb84e9c610" data-file-name="app/portfolio/page.tsx">
                 Previous
               </span></button>
-              <button onClick={nextItem} className="flex items-center px-4 py-2 bg-[#21262d] hover:bg-[#30363d] rounded-md transition" data-unique-id="f1b858df-e575-48da-9152-62f502486744" data-file-name="app/portfolio/page.tsx"><span className="editable-text" data-unique-id="e93b352b-fd5a-468c-a375-e54740af4952" data-file-name="app/portfolio/page.tsx">
+              <button onClick={nextItem} className="flex items-center px-4 py-2 bg-[#21262d] hover:bg-[#30363d] rounded-md transition" data-unique-id="4f7c4143-7fff-4c1a-8783-33c154cb5659" data-file-name="app/portfolio/page.tsx"><span className="editable-text" data-unique-id="654f204e-f4c4-4b7e-9967-8834b7c912c2" data-file-name="app/portfolio/page.tsx">
                 Next
                 </span><ChevronRight size={20} className="ml-1" />
               </button>
