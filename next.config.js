@@ -1,6 +1,7 @@
 // @ts-ignore
 /** @type {import("next").NextConfig} */
 const config = {
+  distDir: 'dist',
   trailingSlash: true,
   images: {
     unoptimized: true,
