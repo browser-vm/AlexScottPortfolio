@@ -32,7 +32,7 @@
         "clsx": "^2.1.1",
         "creatr-devtools": "latest",
         "error-stack-parser": "^2.1.4",
-        "eslint": "^8.57.0",
+        "eslint": "^9.39.2",
         "eslint-config-next": "^15.0.1",
         "eslint-import-resolver-node": "^0.3.9",
         "eslint-import-resolver-typescript": "^3.7.0",
